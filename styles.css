@@ -1,0 +1,190 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 240px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto; /* Maintenir la proportion du logo */
+    margin-right: 20px; /* Espacement entre le logo et le titre */
+}
+
+/* Styles généraux */
+body {
+    font-size: 300%;
+}
+
+/* Espacement entre les paragraphes */
+section {
+    margin-bottom: 40px;
+}
+
+/* Espacement entre les titres et les paragraphes */
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 20px 0; /* Espacement autour des paragraphes */
+    color: #8B0000;
+    font-size: 1.5rem; /* Réduction de la taille du texte */
+    font-family: "Comic Sans MS", cursive; /* Utilisation de la police Comic Sans MS */
+}
+
+li {
+    font-size: 1.8rem; /* Taille de texte moyenne */
+    color: orange; /* Couleur orange */
+}
+
+header {
+    background-color: #9d8692; /* mauve pastel */
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 200%; /* Ajustez la valeur pour la taille souhaitée */
+}
+
+h1 {
+    font-family: 'Playfair Display', serif; /* Police pour les titres */
+    font-weight: 700; /* Plus épais */
+    font-size: 2rem;
+    color: #fff; /* Texte blanc */
+}
+
+nav {
+    background-color: #091f4f; /* Bleu nuit */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Texte blanc */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900; /* Rouge au survol */
+}
+
+.section {
+    padding: 40px;
+    border-top: 1px solid #ddd; /* Ligne de séparation entre les sections */
+}
+
+h2 {
+    border-bottom: 2px solid #091f4f; /* Barre de séparation en dessous du titre h2 */
+    padding-bottom: 10px; /* Espace entre la barre et le texte p */
+}
+
+p {
+    margin-top: 10px; /* Espace entre le paragraphe précédent et la barre */
+}
+
+
+img {
+    max-width: 10%; /* Réduire la largeur à 15% de la largeur d'origine */
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+    transition: transform 0.3s; /* Transition pour l'effet de survol */
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 0.5; /* Utilisation de flex pour le texte pour occuper l'espace disponible */
+    padding: 0 20px; /* Ajout d'un peu d'espace autour du texte */
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 0.5;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 15%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+/* Pour déplacer les images de gauche à droite de manière alternée */
+img:nth-child(even) {
+    float: left;
+}
+
+img:nth-child(odd) {
+    float: right;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+}
+
+.large-image {
+    width: 300px; /* Changer la largeur de l'image en pixels */
+    height: auto; /* Maintenir la proportion de l'image */
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+.large-image:hover {
+    transform: scale(1.2); /* Agrandissement au survol */
+}
+
+/* Styles pour le bouton en bas de la page */
+.info-button {
+    display: block;
+    margin: 50px auto; /* Éloigné de la bordure basse et centré horizontalement */
+    padding: 80px 120px; /* Taille moyenne du bouton */
+    background-color: #091f4f; /* Couleur du fond */
+    color: #fff; /* Couleur du texte */
+    border: none;
+    border-radius: 5px;
+    font-size: 2.2rem; /* Taille du texte du bouton */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.info-button:hover {
+    background-color: #ff9900; /* Couleur du fond au survol */
+    transform: scale(1.1); /* Effet d'agrandissement au survol */
+}
+
+/* Retirer les petits boutons dans le header */
+nav ul {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
